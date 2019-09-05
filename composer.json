@@ -1,5 +1,5 @@
 {
-    "name": "charliepage88/mongodb",
+    "name": "charliepage88/laravel-mongodb",
     "description": "A MongoDB based Eloquent model and Query builder for Laravel (Moloquent)",
     "keywords": ["laravel","eloquent","mongodb","mongo","database","model","moloquent"],
     "homepage": "https://github.com/jenssegers/laravel-mongodb",
