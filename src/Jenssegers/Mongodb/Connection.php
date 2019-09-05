@@ -67,9 +67,10 @@ class Connection extends BaseConnection
      * Begin a fluent query against a database collection.
      *
      * @param  string $table
+     * @param  mixed  $as
      * @return Query\Builder
      */
-    public function table($table)
+    public function table($table, $as = NULL)
     {
         return $this->collection($table);
     }
