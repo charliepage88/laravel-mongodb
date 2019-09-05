@@ -690,13 +690,13 @@ class Builder extends BaseBuilder
     /**
      * @inheritdoc
      */
-    public function from($collection)
+    public function from($collection, $as = NULL)
     {
         if ($collection) {
             $this->collection = $this->connection->getCollection($collection);
         }
 
-        return parent::from($collection);
+        return parent::from($collection, $as);
     }
 
     /**
